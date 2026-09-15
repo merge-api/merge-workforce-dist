@@ -30,7 +30,7 @@ Bring your organization's approved AI tools to employee desktops. The Merge Work
 ## Latest downloads
 
 - **macOS:** [Download the latest PKG](https://github.com/merge-api/merge-workforce-dist/releases/latest/download/Merge-Workforce-macOS.pkg). Signed by Merge API Inc. and notarized by Apple; includes the tray app and background daemon.
-- **Windows x64:** [Download the latest MSI](https://github.com/merge-api/merge-workforce-dist/releases/latest/download/Merge-Workforce-Windows.msi). Signed by Merge API Inc. This is a **tray preview for evaluation**; the MSI does not install the background service or configure managed enrollment yet.
+- **Windows x64:** [Download the latest MSI](https://github.com/merge-api/merge-workforce-dist/releases/latest/download/Merge-Workforce-Windows.msi). Signed by Merge API Inc. with a trusted timestamp; includes the tray app, diagnostic CLI, and automatic background service, with managed enrollment, repair, upgrades, and service recovery.
 
 These links follow the latest published release. See [release notes and checksums](https://github.com/merge-api/merge-workforce-dist/releases/latest) for the current version and limitations. Use versioned assets when pinning an MDM rollout, and verify installation and upgrades on a test group first.
 
