@@ -2,7 +2,7 @@
 
 Bring your organization's approved AI tools to employee desktops. The Merge Workforce desktop client helps IT teams configure AI access, apply organizational policies, and understand AI usage across managed macOS and Windows devices.
 
-[Download installers](https://github.com/merge-api/merge-workforce-dist/releases) · [Deployment guide](https://docs.merge.dev/merge-agent-handler/workforce-desktop-client/deployment-overview) · [Explore Merge for Workforce](https://www.merge.dev/workforce)
+[Download installers](https://github.com/merge-api/merge-workforce-dist/releases/latest) · [Deployment guide](https://docs.merge.dev/merge-agent-handler/workforce-desktop-client/deployment-overview) · [Explore Merge for Workforce](https://www.merge.dev/workforce)
 
 ## Get started
 
@@ -27,12 +27,12 @@ Bring your organization's approved AI tools to employee desktops. The Merge Work
 | Omnissa Workspace ONE | [Deploy with Workspace ONE](https://docs.merge.dev/merge-agent-handler/workforce-desktop-client/deploy/workspace-one) |
 | Another MDM | [Deploy with any other MDM](https://docs.merge.dev/merge-agent-handler/workforce-desktop-client/deploy/other-mdm) |
 
-## Release availability
+## Latest downloads
 
-This repository currently contains preview releases. Review the release notes and confirm the appropriate version with your Merge representative before a production rollout.
+- **macOS:** [Download the latest PKG](https://github.com/merge-api/merge-workforce-dist/releases/latest/download/Merge-Workforce-macOS.pkg). Signed by Merge API Inc. and notarized by Apple; includes the tray app and background daemon.
+- **Windows x64:** [Download the latest MSI](https://github.com/merge-api/merge-workforce-dist/releases/latest/download/Merge-Workforce-Windows.msi). Signed by Merge API Inc. This is a **tray preview for evaluation**; the MSI does not install the background service or configure managed enrollment yet.
 
-- **macOS:** The `v0.1.0-preview3` release includes a `.pkg` described in its release notes as signed and notarized.
-- **Windows:** The available `v0.1.0-preview1` `.msi` is an unsigned evaluation preview, not a production deployment package. A signed Windows release is pending.
+These links follow the latest published release. See [release notes and checksums](https://github.com/merge-api/merge-workforce-dist/releases/latest) for the current version and limitations. Use versioned assets when pinning an MDM rollout, and verify installation and upgrades on a test group first.
 
 ## Documentation and support
 
